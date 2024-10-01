@@ -1,5 +1,6 @@
 import adivina_num
 import pedra_paper_tisores
+import penjat
 
 def menu():
     print("SELECCIÓ DE JOCS:\n")
@@ -10,6 +11,6 @@ def menu():
     elif(seleccio_user == 2):
         pedra_paper_tisores.pedra_paper_tisores_func()
     elif(seleccio_user == 3):
-        print("En construcció")
+        penjat.llegir_paraula_random()
 
 menu()
